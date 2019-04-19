@@ -8,6 +8,9 @@
         text-decoration: none;
         color: #ffffff;
     }
+    .contents{
+        width: 100%;
+    }
     .backimage{
         display: flex;
         align-items: center;
@@ -15,6 +18,13 @@
         top: 0;
         position: relative;
     }
+    #image1{
+        background-image: url("coffee20160715365204_TP_V.jpg")
+    }
+    #image2{
+        background-image: url("Photoelly039_TP_V.jpg")
+    }
+    /*
     .backimage::before{
         content: '';
         top: 0;
@@ -24,6 +34,7 @@
         background-color: rgba(0,0,0,0.2);
         position: absolute;
     }
+    */
     .logo{
         text-align: center;
         font-family: Pristina; /*フォント指定*/
@@ -31,10 +42,10 @@
         color: #ffffff;
         position: absolute;
     }
-    .mainLogo{
+    #mainLogo{
         font-size: xx-large;
     }
-    .subLogo{
+    #subLogo{
         font-size: large;
     }
     .contents{
@@ -43,7 +54,7 @@
         color: #ffffff;
         font-size: 30%;
     }
-    .twitterLink{
+    #twitterLink{
         color: #ffffff;
         font-size: small;
     }
