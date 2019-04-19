@@ -16,10 +16,10 @@
         position: relative;
     }
     #image1{
-        background-image: url("coffee20160715365204_TP_V.jpg")
+        background-image: url("coffee20160715365204_TP_V.jpg");
     }
     #image2{
-        background-image: url("Photoelly039_TP_V.jpg")
+        background-image: url("Photoelly039_TP_V.jpg");
     }
     .backimage::before{
         content: '';
