@@ -3,16 +3,14 @@
     body{
         margin: 0;
         overflow-x: hidden; /*横移動禁止*/
+        height: fit-content;
     }
     a{
         text-decoration: none;
         color: #ffffff;
     }
-    .contents{
-        width: 100%;
-    }
     .backimage{
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: center;
         top: 0;
@@ -53,6 +51,7 @@
         position: absolute;
         color: #ffffff;
         font-size: 30%;
+        width: 100%;
     }
     #twitterLink{
         color: #ffffff;
