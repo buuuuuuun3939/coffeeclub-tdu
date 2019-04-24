@@ -14,13 +14,13 @@ a{
 }
 .backimage{
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;   
+    object-fit: cover;
+    width: auto;
+    height: 100%;
 }
 #image1{
     background-image: url("coffee20160715365204_TP_V.jpg");
-    padding-top:66%;
-    background-size: 100%;
     position: relative;
 }
 #image1::before{
@@ -36,13 +36,9 @@ a{
 }
 #image2{
     background-image: url("CK20160626095213_TP_V.jpg");
-    padding-top: 66%;
-    background-size: 100%;
 }
 #image3{
     background-image: url("Photoelly039_TP_V .jpg");
-    padding-top: 66%;
-    background-size: 100%;
     position: relative;
 }
 #image3::before{
@@ -58,18 +54,19 @@ a{
 }
 #image4{
     background-image: url("CK20160626095213_TP_V.jpg");
-    padding-top: 66%;
-    background-size: 100%;
     position: relative;
 }
 .logo{
     text-align: center;
     font-family: Pristina; /*フォント指定*/
-    line-height: 0; /*行間の指定*/
+    line-height: 50%; /*行間の指定*/
     color: #ffffff;
     z-index: 1;
-    top: 35%;
-    left: 10%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 80%;
     position: absolute;
 }
 .mainLogo{
@@ -89,10 +86,13 @@ a{
 }
 .twitterLink{
     color: #fff;
-    top: 25%;
+    top: 0;
+    bottom: 0;
     right: 0;
     left: 0;
-    bottom: 0;
+    padding-top: 80%;
+    font-size: 130%;
+    font-family: Pristina;
     text-align: center;
     position: absolute;
     z-index: 1;
