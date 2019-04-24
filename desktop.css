@@ -84,6 +84,7 @@
         font-size: 300%;
     }
     .contents{
+        text-align: center;
         line-height: 200%; /*上下の行間*/
         color: #fff;
         font-size: 200%;
