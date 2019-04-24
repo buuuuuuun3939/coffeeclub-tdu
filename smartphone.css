@@ -13,7 +13,9 @@ a{
     color: #fff
 }
 .wapper{
-    overflow: hidden;
+    overflow-x: hidden;
+    width: auto;
+    height: 100%;
 }
 .backimage{
     background-position: center;
