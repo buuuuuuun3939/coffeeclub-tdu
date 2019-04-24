@@ -14,6 +14,11 @@
         text-decoration: none; /*下線の消去*/
         color: #fff
     }
+    .wapper{
+        overflow-x: hidden;
+        width: auto;
+        height: 100%;
+    }
     .backimage{
         height: 100%;
         width: 100%;
