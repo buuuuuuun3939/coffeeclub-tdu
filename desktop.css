@@ -66,11 +66,14 @@
     .logo{
         text-align: center;
         font-family: Pristina; /*フォント指定*/
-        line-height: 0; /*行間の指定*/
+        line-height: 200%; /*行間の指定*/
         color: #ffffff;
         z-index: 1;
-        margin-top: 20%;
-        margin-left: 10%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top: 20%;
         position: absolute;
     }
     .mainLogo{
@@ -80,20 +83,24 @@
         font-size: 400%;
     }
     .contents{
-        line-height: 200%;
+        line-height: 200%; /*上下の行間*/
         color: #fff;
-        margin: 10%;
         font-size: 200%;
+        padding: 10%;
+        top: 0;
+        bottom: 0;
         position: absolute;
     }
     .twitterLink{
         color: #fff;
-        top: 40%;
+        top: 0;
         right: 0;
         left: 0;
         bottom: 0;
+        padding-top: 20%;
         text-align: center;
-        font-size: 300%;
+        font-size: 500%;
+        font-family: Pristina;
         position: absolute;
         z-index: 1;
     }
