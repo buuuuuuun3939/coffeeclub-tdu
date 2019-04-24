@@ -58,7 +58,6 @@ a{
     background-image: url("CK20160626095213_TP_V.jpg");
     position: relative;
 }
-
 .logo{
     text-align: center;
     font-family: Pristina; /*フォント指定*/
@@ -72,13 +71,13 @@ a{
     padding-top: 80%;
     position: absolute;
 }
-/*
 .mainLogo{
     font-size: 150%;
 }
 .subLogo{
     font-size: 100%;
 }
+/*
 .contents{
     color: #fff;
     top: 0;
