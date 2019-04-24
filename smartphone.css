@@ -61,7 +61,7 @@
     .logo{
         text-align: center;
         font-family: 'Courgette', cursive; /*フォント指定*/
-        line-height: 50%; /*行間の指定*/
+        line-height: 120%; /*行間の指定*/
         color: #ffffff;
         z-index: 1;
         top: 0;
@@ -75,7 +75,7 @@
         font-size: 120%;
     }
     .subLogo{
-        font-size: 90%;
+        font-size: 80%;
     }
     .contents{
         color: #fff;
