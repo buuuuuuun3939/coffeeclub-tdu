@@ -60,7 +60,7 @@
     }
     .logo{
         text-align: center;
-        font-family: Courgette; /*フォント指定*/
+        font-family: 'Courgette', cursive; /*フォント指定*/
         line-height: 50%; /*行間の指定*/
         color: #ffffff;
         z-index: 1;
@@ -95,7 +95,7 @@
         left: 0;
         padding-top: 50%;
         font-size: 100%;
-        font-family: Courgette;;
+        font-family: 'Courgette', cursive; /*フォント指定*/
         text-align: center;
         position: absolute;
         z-index: 1;
