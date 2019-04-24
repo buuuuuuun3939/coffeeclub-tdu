@@ -88,7 +88,9 @@
         line-height: 200%; /*上下の行間*/
         color: #fff;
         font-size: 200%;
-        padding: 10%;
+        padding-top: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
         top: 0;
         bottom: 0;
         position: absolute;
