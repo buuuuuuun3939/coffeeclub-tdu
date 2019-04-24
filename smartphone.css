@@ -11,6 +11,9 @@ a{
     text-decoration: none; /*下線の消去*/
     color: #fff
 }
+.wapper{
+    overflow: hidden;
+}
 .backimage{
     background-position: center;
     background-repeat: no-repeat;   
