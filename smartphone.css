@@ -6,6 +6,7 @@ html{
 body{
     margin: 0;
     height: 100%;
+    overflow-x: hidden; /*横移動禁止*/
 }
 a{
     text-decoration: none; /*下線の消去*/
