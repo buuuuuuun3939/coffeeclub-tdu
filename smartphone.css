@@ -60,7 +60,7 @@ a{
 }
 .logo{
     text-align: center;
-    font-family: Pristina; /*フォント指定*/
+    font-family: Franklin Gothic Medium; /*フォント指定*/
     line-height: 50%; /*行間の指定*/
     color: #ffffff;
     z-index: 1;
@@ -72,10 +72,10 @@ a{
     position: absolute;
 }
 .mainLogo{
-    font-size: 150%;
+    font-size: 120%;
 }
 .subLogo{
-    font-size: 100%;
+    font-size: 90%;
 }
 /*
 .contents{
