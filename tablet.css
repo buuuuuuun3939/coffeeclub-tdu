@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+    html{
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+    }
+    body{
+        margin: 0;
+        height: 100%;
+        overflow-x: hidden; /*横移動禁止*/
+    }
+    a{
+        text-decoration: none; /*下線の消去*/
+        color: #fff
+    }
+    .wapper{
+        overflow-x: hidden;
+        width: auto;
+        height: 100%;
+    }
+    .backimage{
+        background-position: center;
+        background-repeat: no-repeat;   
+        object-fit: cover;
+        height: 100%;
+    }
+    #image1{
+        background-image: url("coffee20160715365204_TP_V.jpg");
+        position: relative;
+    }
+    #image1::before{
+        /*マスク*/
+        content: '';
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+    }
+    #image2{
+        background-image: url("CK20160626095213_TP_V.jpg");
+    }
+    #image3{
+        background-image: url("Photoelly039_TP_V .jpg");
+        position: relative;
+    }
+    #image3::before{
+        /*マスク*/
+        content: '';
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+    }
+    #image4{
+        background-image: url("CK20160626095213_TP_V.jpg");
+        position: relative;
+    }
+    .logo{
+        text-align: center;
+        font-family: 'Courgette', cursive; /*フォント指定*/
+        line-height: 120%; /*行間の指定*/
+        color: #ffffff;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top: 50%;
+        position: absolute;
+    }
+    .mainLogo{
+        font-size: 250%;
+    }
+    .subLogo{
+        font-size: 150%;
+    }
+    .contents{
+        color: #fff;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        font-size: 200%;
+        padding: 10%;
+        position: absolute;
+    }
+    .twitterLink{
+        color: #fff;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding-top: 50%;
+        font-size: 200%;
+        font-family: 'Courgette', cursive; /*フォント指定*/
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+    }
