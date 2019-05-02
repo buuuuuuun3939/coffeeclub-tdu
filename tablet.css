@@ -70,7 +70,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        padding-top: 40vh;
+        padding-top: 30vh;
         position: absolute;
     }
     .mainLogo{
@@ -86,7 +86,6 @@
         bottom: 0;
         left: 0;
         font-size: 180%;
-        padding: 10vh;
         position: absolute;
     }
     .twitterLink{
@@ -95,7 +94,7 @@
         bottom: 0;
         right: 0;
         left: 0;
-        padding-top: 40vh;
+        padding-top: 30vh;
         font-size: 200%;
         font-family: 'Courgette', cursive; /*フォント指定*/
         text-align: center;
