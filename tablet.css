@@ -86,7 +86,9 @@
         bottom: 0;
         left: 0;
         font-size: 180%;
-        padding: 10vw;
+        padding-left: 10vw;
+        paddign-right: 10vw;
+        padding-top: 10vh;
         position: absolute;
     }
     .twitterLink{
