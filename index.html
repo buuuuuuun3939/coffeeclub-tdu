@@ -1,42 +1,62 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>TDU珈琲同好会</title>
-    <link rel="stylesheet" href="smartphone.css" media="screen and (max-width:500px)">
-    <link rel="stylesheet" href="tablet.css" media="screen and (min-width:501px) and (max-width:1200px)">
-    <link rel="stylesheet" href="desktop.css" media="screen and (min-width:1201px)">
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" type="text/css"> 
-</head>
-<body>
-    <div class="wapper">
-        <div class="backimage" id="image1">
-            <div class="logo">
-                <div class="mainLogo">
-                    <h1>CoffeeClub_TDU</h1>
-                </div>
-                <div class="subLogo">
-                    <h2>We love a cup of coffee.</h2>
-                </div>
-            </div>
-        </div>
-        <div class="backimage" id="image2"></div>
-        
-        <div class="backimage" id="image3">
-            <!--本文-->
-            <div class="contents">
-                <p>こんにちは。TDU珈琲同好会です。東京千住キャンパスで活動を行っています。</p>
-                <p>北千住には美味しい珈琲を楽しめるカフェが沢山あります。プロが淹れる珈琲が美味しいのはもちろんですが、自分で豆を挽いて淹れる珈琲もまた、格別です。</p>
-                <p>本同好会では珈琲や紅茶を片手に、テーブルを囲みながら談笑したり、コードを書いたりしています。</p>
-                <p>現在、会員を募集しております。現会員は本学2年生5名、本学4年生1名、他大学1名です。どの学年・学校の方でも大歓迎です。自分で珈琲を淹れてみたい・北千住の美味しいカフェを知りたいなどなど、興味のある方は是非Twitterフォロー宜しくお願いします。</p>
-            </div>
-        </div>
-        <div class="backimage" id="image4">
-            <div class="twitterLink">
-                <a href="https://twitter.com/CoffeeClub_TDU"><h2>Twitter:@CoffeeClub_TDU</h2></a>
-            </div>
-        </div>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/portrait.css" media="screen and (max-width:1919px)">
+  <link rel="stylesheet" href="./css/landscape.css" media="screen and (min-width:1920px)">
+  <link rel="stylesheet" href="./modules/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&amp;display=swap">
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <article class="swiper-slide" id="slide1">
+          <section id="section1">
+            <h1>TDU CoffeeClub</h1>
+            <h2>we love a cup of coffee.</h2>
+          </section>
+        </article>
+        <article class="swiper-slide" id="slide2">
+          <section id="section2">
+            <h2>Q and A</h2>
+            <section id="QandA">
+              <h3 class="ques">Q. 何者？</h3>
+              <h3 class="ans">A. TDU珈琲同好会です。東京千住キャンパスにて活動しています。2019年に発足しました。</h3>
+              <h3 class="ques">Q. 大学公認？</h3>
+              <h3 class="ans">A. 大学非公認の活動団体となります。</h3>
+              <h3 class="ques">Q. 活動内容は？</h3>
+              <h3 class="ans">A. 自分達で珈琲豆を買い、一から珈琲を淹れて飲んでいます。また、お菓子を楽しんだり、趣味の話(主にコンピュータや講義に関してなど)をしています。</h3>
+              <h3 class="ques">Q. 活動頻度は？</h3>
+              <h3 class="ans">A. 不定期で月1回程度、活動中です。</h3>
+            </section>
+          </section>
+        </article>
+        <article class="swiper-slide" id="slide3">
+          <section id="section3">
+            <h2>現在会員募集中!! ご連絡は<b>Twitter</b>から。</h2>
+          </section>
+        </article>
+        <article class="swiper-slide" id="slide4">
+          <section id="section4">
+            <h2><a href="https://twitter.com/CoffeeClub_TDU">Twitter:@CoffeeClub_TDU</a></h2>
+          </section>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
-</body>
+    <script src="./modules/swiper/js/swiper.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper-container', {
+          direction: 'vertical',
+          slidesPerView: 1,
+          spaceBetween: 30,
+          mousewheel: true,
+          speed: 600,
+          pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+          },
+      });
+    </script>
+  </body>
 </html>

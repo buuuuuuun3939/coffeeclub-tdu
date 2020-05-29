@@ -1,0 +1,55 @@
+doctype
+html
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="./css/portrait.css" media="screen and (max-width:1919px)")
+    link(rel="stylesheet" href="./css/landscape.css" media="screen and (min-width:1920px)")
+    link(rel="stylesheet" href="./modules/swiper/css/swiper.css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap")
+
+    body
+        div(class="swiper-container")
+            div(class="swiper-wrapper")
+                article(class="swiper-slide" id="slide1")
+                    section(id="section1")
+                        h1 TDU CoffeeClub
+                        h2 we love a cup of coffee.
+
+                article(class="swiper-slide" id="slide2")
+                    section(id="section2")
+                        h2 Q and A
+
+                        section(id="QandA")
+                            h3(class="ques") Q. 何者？
+                            h3(class="ans") A. TDU珈琲同好会です。東京千住キャンパスにて活動しています。2019年に発足しました。
+                            h3(class="ques") Q. 大学公認？
+                            h3(class="ans") A. 大学非公認の活動団体となります。
+                            h3(class="ques") Q. 活動内容は？
+                            h3(class="ans") A. 自分達で珈琲豆を買い、一から珈琲を淹れて飲んでいます。また、お菓子を楽しんだり、趣味の話(主にコンピュータや講義に関してなど)をしています。
+                            h3(class="ques") Q. 活動頻度は？
+                            h3(class="ans") A. 不定期で月1回程度、活動中です。
+
+                article(class="swiper-slide" id="slide3")
+                    section(id="section3")
+                        h2 現在会員募集中!! ご連絡は<b>Twitter</b>から。
+
+                article(class="swiper-slide" id="slide4")
+                    section(id="section4")
+                        h2
+                            a(href="https://twitter.com/CoffeeClub_TDU") Twitter:@CoffeeClub_TDU
+            div(class="swiper-pagination")
+
+        script(src="./modules/swiper/js/swiper.js")
+        script
+            | const swiper = new Swiper('.swiper-container', {
+            |     direction: 'vertical',
+            |     slidesPerView: 1,
+            |     spaceBetween: 30,
+            |     mousewheel: true,
+            |     speed: 600,
+            |     pagination: {
+            |         el: '.swiper-pagination',
+            |         clickable: true,
+            |     },
+            | });
