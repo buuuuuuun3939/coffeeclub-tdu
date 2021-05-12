@@ -25,6 +25,6 @@
     "gulp-stylus": "^2.7.0",
     "http-server": "^0.12.3",
     "jquery": "^3.5.1",
-    "swiper": "^5.4.1"
+    "swiper": "^6.5.1"
   }
 }
